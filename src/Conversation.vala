@@ -14,22 +14,31 @@ namespace Ui {
             private const string CONVERSATION_URL = MESSENGER_URL + "/t";
             
             private const string STYLE_SHEET = """
-                div._1enh {
-                    max-width: 1px;
-                    min-width: 1px;
-                }
-                div._1q5- {
-                    border-left: none;
-                }
-                a._30yy._2oc8 {
-                    display: none;
-                }
-                span._3oh-._58nk {
-                    /*white-space: pre;*/
-                }
-                div._1p1v {
-                    white-space: pre;
-                }
+                                    div._1enh {
+                                        max-width: 1px;
+                                        min-width: 1px;
+                                    }
+                                    div._1q5- {
+                                        border-left: none;
+                                    }
+                                    a._30yy._2oc8 {
+                                        display: none;
+                                    }
+                                    span._3oh-._58nk {
+                                        /*white-space: pre;*/
+                                    }
+                                    div._1p1v {
+                                       white-space: pre;
+                                    }
+                                    ul._fl2 {
+                                       display :none;
+                                    }
+                                    div._4_j5 {
+                                        display :none;
+                                    }
+                                    div._4kzu {
+                                       display :none;
+                                    }
                 """;
 
             private const string CHANGE_USER_SCRIPT = """
